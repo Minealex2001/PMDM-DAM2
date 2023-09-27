@@ -4,111 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fa62c27-c33a-416c-a338-9fc7c52f6ed7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/androidTest/java/com/alejandrosanchez/estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/java/com/alejandrosanchez/estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/app/src/test/java/com/alejandrosanchez/estoyaprendiendopormimismoporqueelprofesorseniegaadarclase/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/java/com/alejandrosanchez/elprofesormehaconfirmadoquenopiensadarclase/HomeFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/java/com/alejandrosanchez/elprofesormehaconfirmadoquenopiensadarclase/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/java/com/alejandrosanchez/elprofesormehaconfirmadoquenopiensadarclase/Onboarding1Fragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/java/com/alejandrosanchez/elprofesormehaconfirmadoquenopiensadarclase/Onboarding2Fragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/drawable/onboarding1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/drawable/onboarding2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/layout/fragment_onboarding1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/layout/fragment_onboarding2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../elprofesormehaconfirmadoquenopiensadarclase/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/androidTest/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/HomeFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/Onboarding1Fragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/Onboarding2Fragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/ui/theme/Color.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/ui/theme/Theme.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/ui/theme/Type.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/drawable/onboarding1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/drawable/onboarding2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/layout/fragment_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/layout/fragment_onboarding1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/layout/fragment_onboarding2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/app/src/test/java/com/example/voyaprobarcosasporqueelporfesorseniegaadarclase/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Voyaprobarcosasporqueelporfesorseniegaadarclase/settings.gradle.kts" beforeDir="false" />
-    </list>
+    <list default="true" id="2fa62c27-c33a-416c-a338-9fc7c52f6ed7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,15 +24,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="Estoyaprendiendopormimismoporqueelprofesornomequiereenseñar.app.main" />
