@@ -57,7 +57,6 @@ class Onboarding1Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         botonSiguiente = view.findViewById(R.id.botonSiguiente);
         botonSiguiente.setOnClickListener(View.OnClickListener {
-            // navegar al onboarding2
         })
     }
 
