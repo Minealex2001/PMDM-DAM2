@@ -2,14 +2,14 @@ package com.alejandrosanchez.thegameofpig;
 
 import java.util.HashMap;
 
-public class dice {
+public class Dice {
     private HashMap<String, Integer> players = new HashMap<>();
 
     private boolean hold = false;
 
     private static int scoreRound = 0;
 
-    public dice() {
+    public Dice() {
         players.put("p1", 0);
         players.put("p2", 0);
     }
@@ -46,7 +46,7 @@ public class dice {
     }
 
     public static void setScoreRound(int scoreRound) {
-        dice.scoreRound = scoreRound;
+        Dice.scoreRound = scoreRound;
     }
     public int getScoreRound(){
         return scoreRound;
@@ -63,7 +63,8 @@ public class dice {
         this.hold = hold;
     }
 
-    private boolean invertedHold() {
+    public boolean invertedHold() {
         return !hold;
     }
+
 }

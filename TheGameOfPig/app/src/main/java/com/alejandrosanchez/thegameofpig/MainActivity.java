@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button hold;
 
-    private final dice dice = new dice();
+    private final Dice dice = new Dice();
 
     private TextView winner;
 
@@ -29,5 +29,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        }
+
+        private void setGameHold(){
+        hold.setOnClickListener(view -> {
+
+            if (dice.invertedHold()){
+                dice.sumPoints("p1", dice.getScoreRound());
+                dice.setScoreRound(0);
+
+                TextView viewPlayer1 = findViewById(R.id.p1_score);
+                viewPlayer1.setText(String.valueOf(dice.getPoints("p1")));
+            }
+        });
         }
     }
