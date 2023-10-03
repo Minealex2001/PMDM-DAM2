@@ -6,15 +6,16 @@ import java.util.HashMap;
  *
  * This class is used to create a dice object
  *
- * @version 1.0 2021/02/19
- * @Author Alejandro Sánchez
- * @GitHub https://github.com/Minealex2001/PMDM-DAM2
+ * @version 1.0
+ * @since 2021-03-01
+ * @author Alejandro Sánchez PInto
+ * @GitHub <a href="https://github.com/Minealex2001/PMDM-DAM2">...</a>
  */
 public class Dice {
     /**
      * Attributes
      */
-    private HashMap<String, Integer> players = new HashMap<>();
+    private final HashMap<String, Integer> players = new HashMap<>();
     private boolean hold = false;
     private static int scoreRound = 0;
 
@@ -26,9 +27,7 @@ public class Dice {
         players.put("p2", 0);
     }
 
-    /**
-     * Methods
-     */
+    //Methods
 
     /**
      * This method is used to roll the dice
@@ -41,8 +40,6 @@ public class Dice {
 
     /**
      * This method is used to play the game
-     *
-     * @return void
      */
     public void play() {
         int number = 0;
@@ -71,8 +68,6 @@ public class Dice {
     }
     /**
      * This method is used reset the game
-     *
-     * @return void
      */
     public void deleteGame(){
         players.put("p1", 0);
@@ -98,16 +93,12 @@ public class Dice {
     }
     /**
      * This method is used to sum the points
-     *
-     *
      */
     public void addDice(String player, int roll){
         players.merge(player, roll, Integer::sum);
     }
     /**
      * This method is used to check if the player has selected hold
-     *
-     *
      */
     public void setHold(boolean hold) {
         this.hold = hold;
