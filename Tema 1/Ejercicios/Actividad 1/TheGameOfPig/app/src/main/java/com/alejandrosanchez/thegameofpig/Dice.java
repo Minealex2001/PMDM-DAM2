@@ -59,9 +59,9 @@ public class Dice {
      */
     public String winner(){
         String winner = "";
-        if (players.get("p1") >= 10) {
+        if (players.get("p1") >= 100) {
             winner = "P1";
-        } else if (players.get("p2") >= 10) {
+        } else if (players.get("p2") >= 100) {
             winner = "P2";
         }
         return winner;

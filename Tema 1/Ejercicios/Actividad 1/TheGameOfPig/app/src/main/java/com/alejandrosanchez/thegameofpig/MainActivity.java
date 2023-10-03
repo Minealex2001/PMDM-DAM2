@@ -62,12 +62,18 @@ public class MainActivity extends AppCompatActivity {
                 //Set the score to the player
                 TextView viewPlayer1 = findViewById(R.id.p1_score);
                 viewPlayer1.setText(String.valueOf(dice.getPoints("p1")));
+                //Set the actual player
+                TextView actualPlayer = findViewById(R.id.actualPlayer);
+                actualPlayer.setText(R.string.player2);
             }else {
                 //Add the score to the player
                 dice.addDice("p2", dice.getScoreRound());
                 //Set the score to the player
                 TextView viewPlayer2 = findViewById(R.id.p2_score);
                 viewPlayer2.setText(String.valueOf(dice.getPoints("p2")));
+                //Set the actual player
+                TextView actualPlayer = findViewById(R.id.actualPlayer);
+                actualPlayer.setText(R.string.player1);
             }
             //Reset the score
             dice.setScoreRound(0);
