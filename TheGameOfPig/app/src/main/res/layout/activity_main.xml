@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/Titulo"
+        android:id="@+id/titulo"
         android:layout_width="272dp"
         android:layout_height="62dp"
         android:layout_marginStart="153dp"
@@ -26,19 +26,19 @@
         app:layout_constraintVertical_bias="0.055" />
 
     <TextView
-        android:id="@+id/P1"
+        android:id="@+id/jugador1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="@string/player1"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/P2"
+        app:layout_constraintEnd_toStartOf="@+id/jugador2"
         app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
     <TextView
-        android:id="@+id/P2"
+        android:id="@+id/jugador2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
@@ -46,21 +46,19 @@
         android:text="@string/player2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
     <TextView
         android:id="@+id/p1_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="300dp"
         android:text="@string/player1_puntuacion"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/P1"
+        app:layout_constraintTop_toBottomOf="@+id/jugador1"
         app:layout_constraintVertical_bias="0.086" />
 
     <TextView
@@ -73,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.718"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/P2"
+        app:layout_constraintTop_toBottomOf="@+id/jugador2"
         app:layout_constraintVertical_bias="0.086" />
 
     <TextView
@@ -87,21 +85,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
     <TextView
         android:id="@+id/turn_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="201dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="202dp"
-        android:layout_marginBottom="373dp"
+
         android:text="@string/turn_score"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/current_score" />
 
@@ -157,10 +151,10 @@
         android:layout_marginBottom="11dp"
         android:text="@string/player1_wins"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/P2"
+        app:layout_constraintBottom_toTopOf="@+id/jugador2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Titulo"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
         app:layout_constraintVertical_bias="0.555" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,8 +27,9 @@ public class MainActivity extends AppCompatActivity {
         newGame = findViewById(R.id.new_game_button);
         hold = findViewById(R.id.hold_button);
 
-
-
+        setDiceRoll();
+        resetGame(newGame);
+        setGameHold();
         }
 
         private void setGameHold(){
@@ -36,27 +37,31 @@ public class MainActivity extends AppCompatActivity {
 
             if (dice.invertedHold()){
                 dice.addDice("p1", dice.getScoreRound());
-                dice.setScoreRound(0);
+
 
                 TextView viewPlayer1 = findViewById(R.id.p1_score);
                 viewPlayer1.setText(String.valueOf(dice.getPoints("p1")));
             }else {
                 dice.addDice("p2", dice.getScoreRound());
-                dice.setScoreRound(0);
+
 
                 TextView viewPlayer2 = findViewById(R.id.p2_score);
                 viewPlayer2.setText(String.valueOf(dice.getPoints("p2")));
             }
 
+            dice.setScoreRound(0);
+            TextView scoreView = findViewById(R.id.turn_score);
+            scoreView.setText(String.valueOf(Dice.getScoreRound()));
+
             winnerCheck();
 
-            dice.hold(dice.invertedHold());
+            dice.setHold(dice.invertedHold());
 
 
         });
         }
 
-        private void resetGame(){
+        private void resetGame(Button newGame){
         newGame.setOnClickListener(view -> {
             dice.deleteGame();
             TextView viewPlayer1 = findViewById(R.id.p1_score);
@@ -67,29 +72,19 @@ public class MainActivity extends AppCompatActivity {
         });
         }
         private void setDiceRoll(){
-        roll.setOnClickListener(view -> {
-            int roll = dice.roll();
-            TextView viewDice = findViewById(R.id.roll_button);
-            viewDice.setText(String.valueOf(roll));
-
-            if (dice.invertedHold()){
-                dice.play();
-                TextView viewPlayer1 = findViewById(R.id.p1_score);
-                viewPlayer1.setText(String.valueOf(dice.getPoints("p1")));
-            }else {
-                dice.play();
-                TextView viewPlayer2 = findViewById(R.id.p2_score);
-                viewPlayer2.setText(String.valueOf(dice.getPoints("p2")));
-            }
+        this.roll.setOnClickListener(view -> {
+            dice.play();
+            TextView scoreView = findViewById(R.id.turn_score);
+            scoreView.setText(String.valueOf(Dice.getScoreRound()));
             winnerCheck();
         });
         }
 
         private void winnerCheck(){
-        if (dice.winner().equals("Player 1")){
+        if (dice.winner().equalsIgnoreCase("P1")){
             winner.setText(R.string.player1_wins);
             winner.setVisibility(View.VISIBLE);
-        }else{
+        }else if(dice.winner().equalsIgnoreCase("P2")){
             winner.setText(R.string.player2_wins);
             winner.setVisibility(View.VISIBLE);
         }

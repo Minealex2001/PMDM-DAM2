@@ -50,7 +50,7 @@ public class Dice {
         if (!((number = roll()) == 1)) {
             scoreRound += number;
         } else {
-            this.hold(this.invertedHold());
+            this.setHold(this.invertedHold());
             scoreRound = 0;
         }
 
@@ -62,10 +62,10 @@ public class Dice {
      */
     public String winner(){
         String winner = "";
-        if (players.get("p1") >= 100) {
-            winner = "Player 1";
-        } else if (players.get("p2") >= 100) {
-            winner = "Player 2";
+        if (players.get("p1") >= 10) {
+            winner = "P1";
+        } else if (players.get("p2") >= 10) {
+            winner = "P2";
         }
         return winner;
     }
@@ -80,19 +80,11 @@ public class Dice {
         scoreRound = 0;
     }
     /**
-     * This method is used to sum the points
-     *
-     * @return void
-     */
-    public static void setScoreRound(int scoreRound) {
-        Dice.scoreRound = scoreRound;
-    }
-    /**
      * This method is used to get the score of the round
      *
      * @return int
      */
-    public int getScoreRound() {
+    public static int getScoreRound() {
         return scoreRound;
     }
     /**
@@ -107,7 +99,7 @@ public class Dice {
     /**
      * This method is used to sum the points
      *
-     * @return void
+     *
      */
     public void addDice(String player, int roll){
         players.merge(player, roll, Integer::sum);
@@ -115,10 +107,14 @@ public class Dice {
     /**
      * This method is used to check if the player has selected hold
      *
-     * @return void
+     *
      */
-    public void hold(boolean hold) {
+    public void setHold(boolean hold) {
         this.hold = hold;
+    }
+
+    public void setScoreRound(int currentRound) {
+        scoreRound = currentRound;
     }
 
     /**
