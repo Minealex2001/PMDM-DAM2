@@ -1,23 +1,49 @@
 package com.alejandrosanchez.thegameofpig;
 
 import java.util.HashMap;
-
+/**
+ * Class Dice
+ *
+ * This class is used to create a dice object
+ *
+ * @version 1.0 2021/02/19
+ * @Author Alejandro Sánchez
+ * @GitHub https://github.com/Minealex2001/PMDM-DAM2
+ */
 public class Dice {
+    /**
+     * Attributes
+     */
     private HashMap<String, Integer> players = new HashMap<>();
-
     private boolean hold = false;
-
     private static int scoreRound = 0;
 
+/**
+     * Constructor
+     */
     public Dice() {
         players.put("p1", 0);
         players.put("p2", 0);
     }
 
+    /**
+     * Methods
+     */
+
+    /**
+     * This method is used to roll the dice
+     *
+     * @return int
+     */
     public static int roll() {
         return (int) (Math.random() * 6) + 1;
     }
 
+    /**
+     * This method is used to play the game
+     *
+     * @return void
+     */
     public void play() {
         int number = 0;
 
@@ -29,7 +55,11 @@ public class Dice {
         }
 
     }
-
+    /**
+     * This method is used to check if the player has won
+     *
+     * @return String
+     */
     public String winner(){
         String winner = "";
         if (players.get("p1") >= 100) {
@@ -39,30 +69,63 @@ public class Dice {
         }
         return winner;
     }
+    /**
+     * This method is used reset the game
+     *
+     * @return void
+     */
     public void deleteGame(){
         players.put("p1", 0);
         players.put("p2", 0);
         scoreRound = 0;
     }
-
+    /**
+     * This method is used to sum the points
+     *
+     * @return void
+     */
     public static void setScoreRound(int scoreRound) {
         Dice.scoreRound = scoreRound;
     }
-    public int getScoreRound(){
+    /**
+     * This method is used to get the score of the round
+     *
+     * @return int
+     */
+    public int getScoreRound() {
         return scoreRound;
     }
+    /**
+     * This method is used to get the points
+     *
+     * @return int
+     */
     public int getPoints(String player){
         Integer points = players.get(player);
         return points != null ? points : 0;
     }
+    /**
+     * This method is used to sum the points
+     *
+     * @return void
+     */
     public void addDice(String player, int roll){
         players.merge(player, roll, Integer::sum);
     }
-
-    private void hold(boolean hold) {
+    /**
+     * This method is used to check if the player has selected hold
+     *
+     * @return void
+     */
+    public void hold(boolean hold) {
         this.hold = hold;
     }
 
+    /**
+     * This method is used to change the hold value
+     *
+     * @return boolean
+     */
     public boolean invertedHold() {
         return !hold;
     }
